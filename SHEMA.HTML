@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <style>
+        body {
+            background-image: url("2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 100px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 8px;
+            width: 90%;
+            margin-bottom: 10px;
+        }
+
+        #l {
+            background: linear-gradient(blue, red, pink, yellow, green);
+            background-size: 350% 350%;
+            animation: aicolorwave 4.5s ease infinite;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #s {
+            background-color: lawngreen;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        @keyframes aicolorwave {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .search-box {
+            margin-top: 30px;
+        }
+
+        .search-box input {
+            padding: 10px;
+            width: 220px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .search-box button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><i><u><b>Welcome to My Project</b></u></i></h1>
+
+    <div class="container">
+        Username<br>
+        <input type="text" name="username"><br>
+
+        Password<br>
+        <input type="password" name="password"><br><br>
+
+        <button id="l">
+            <a href="home.html">Login</a>
+        </button>
+        <br><br>
+
+        <button id="s">
+            <a href="#">Sign Up</a>
+        </button>
+    </div>
+    <dir class="search-box">
+        <input type="text" placeholder="search here........,,,">
+        <button>search</button>
+
+    </dir>
+
+</body>
+</html>
