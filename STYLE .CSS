@@ -1,0 +1,123 @@
+body {
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(7.png);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial Black', Impact, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* GANGSTER TITLE */
+h1 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: aqua;
+  text-shadow: 3px 3px 0 black, 6px 6px 0 #000, 0 0 20px aqua;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 3px solid aqua;
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+
+/* MENU */
+.menu {
+  margin-top: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid aqua;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: aqua;
+  color: black;
+  box-shadow: 0 0 15px aqua;
+}
+
+/* SEARCH BAR */
+.search-box {
+  margin-top: 35px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 240px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: aqua;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  box-shadow: 0 0 15px aqua;
+}
+
+/* DESCRIPTION */
+p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* WALLPAPER SECTION */
+.wallpapers {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.wallpapers h2 {
+  font-size: 32px;
+  color: aqua;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px aqua;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 280px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid aqua;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 0 20px black;
+}
+
+.gallery img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 25px aqua;
+}
